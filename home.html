@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anasayfa</title>
+    <link rel="stylesheet" href="https://img-storish.mncdn.com/assets/plugins/fontawesome/css/all.min.css" />
+    <link rel="stylesheet" href="home.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+</head>
+<body>
+
+    <script>
+        $(document).ready(function () {
+            $(".hamburger-btn").click(function () {
+                $(".hamburger-btn").toggleClass("hamburger-change");
+                $("ul").finish().slideToggle(500);
+            });
+     
+            $("li").click(function () {
+                $("li").removeClass("active");
+                $(this).addClass("active");
+            });
+        });
+    </script>
+
+<div class="container">
+
+    <div class="header display_flex">
+        
+        <div class="firstLogo">
+            <img src="netflix.png" alt="" class="logoRight">
+        </div>
+
+        <div class="menuBar">
+            <ul>
+                <li class="content__item">
+					<a href="#" class="link link--metis">Ana Sayfa</a>
+				</li>
+                <li class="content__item">
+					<a href="#" class="link link--metis">Diziler</a>
+				</li>
+                <li class="content__item">
+					<a href="#" class="link link--metis">Filmler</a>
+				</li>
+                <li class="content__item">
+					<a href="#" class="link link--metis">Yeni ve Popüler</a>
+				</li>
+                <li class="content__item">
+					<a href="#" class="link link--metis">Listem</a>
+				</li>
+                <li class="content__item">
+					<a href="#" class="link link--metis">Dile Göre Göz At</a>
+				</li>
+            </ul>
+
+            <div class="hamburger-btn">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+
+
+        </div>
+    </div>
+    
+    <div class="rightPanel">
+        <div>
+            <i class="fas fa-caret-down"></i>
+        </div>
+        <div class="at">
+            <img src="yenipp.png" alt="" class="horsePhoto">
+        </div>
+        <div>
+            <i class="fas fa-bell"></i>
+        </div>
+        <div>
+            <h5>Çocuk</h5>
+        </div>
+        <div>
+            <i class="fas fa-search"></i>
+        </div>
+    </div>
+
+</div>
+    
+<div class="bulanik-img anaResim " style="width: 100% !important">
+    <div class="bulanik bulanik-img"><img src="bulanik.png" class="bulanik-img" alt=""style="width: 100% !important"></div>
+    <div class="bulanik2 bulanik-img"><img src="bulanik.png" class="bulanik-img" alt=""style="width: 100% !important"></div>
+    <div class="bulanik-img">
+        <img src="newarkaplan2" alt="" class="anaResimm "style="width: 100% !important">
+        <img src="mobilbackground.jpg" alt="" class="mobilResim "style="width: 100% !important">
+    </div>
+</div>
+
+<div class="anaGovde">
+    <div class="elrey">
+        <img src="yeniyazi.webp" alt="">
+    </div>
+    
+    <div class="elreyYazi">
+        <p>Mütevazı bir aileden gelip yıldızlığa yükselen meksikalı müzik idolü <br>Vicente Fernândez'in fırtınalı hayatı ve kariyeri onlarca yıllık bir <br>dönemi kapsayacak şekilde anlatılıyor.</p>
+    </div>
+
+    <div class="play">
+    <button class="profileSC" type="button"><i class="fas fa-play"></i>Oynat</button>
+    </div>
+
+    <div class="about">
+    <button class="profileSC2" type="button"><i class="fas fa-info-circle"></i>Daha Fazla Bilgi</button>
+    </div>
+</div>
+
+<!--dizi-kutuları-->
+
+<div class="kutucuk">
+    
+    <div class="kutuName" style="margin-left: 10px;"> <h5>Suç Temalı Diziler</h5> </div>
+    <div class="diziler">
+        <img src="1.webp" alt="" class="imgSize">
+        <img src="2.webp" alt="" class="imgSize">
+        <img src="3.jpg" alt="" class="imgSize">
+        <img src="4.jpg" alt="" class="imgSize">
+        <img src="6.jpg" alt="" class="imgSize">
+        <img src="7.webp" alt="" class="imgSize">
+    </div>
+
+    <div class="kutuName" style="margin-left: 10px; margin-top: 3%;"> <h5>Barış, İzlemeye Devam Et</h5> </div>
+    <div class="diziler">
+        <img src="8.jpg" alt="" class="imgSize">
+        <img src="9.jpg" alt="" class="imgSize">
+        <img src="10.webp" alt="" class="imgSize">
+        <img src="11.jpg" alt="" class="imgSize">
+        <img src="12.webp" alt="" class="imgSize">
+        <img src="13.jpg" alt="" class="imgSize">
+    </div>
+
+    <div class="kutuName" style="margin-left: 10px; margin-top: 3%;"> <h5>Gündemdekiler</h5> </div>
+    <div class="diziler">
+        <img src="14.webp" alt="" class="imgSize">
+        <img src="15.webp" alt="" class="imgSize">
+        <img src="16.webp" alt="" class="imgSize">
+        <img src="17.webp" alt="" class="imgSize">
+        <img src="18.webp" alt="" class="imgSize">
+        <img src="19.jpg" alt="" class="imgSize">
+    </div>
+
+
+    <div class="kutuName" style="margin-left: 10px; margin-top: 3%;">
+        <button class="profileSC5" type="button">Hizmet Kodu</button>
+    </div>
+    <div class="diziler">
+        <div class="grey1 imgSizeGrey" style="background-color:rgb(49, 49, 49);"></div>
+        <div class="grey2 imgSizeGrey" style="background-color:rgb(78, 78, 78);"></div>
+        <div class="grey3 imgSizeGrey" style="background-color:rgb(109, 109, 109);"></div>
+        <div class="grey4 imgSizeGrey" style="background-color:rgb(109, 109, 109);"></div>
+        <div class="grey5 imgSizeGrey" style="background-color:rgb(78, 78, 78);"></div>
+        <div class="grey6 imgSizeGrey" style="background-color:rgb(49, 49, 49);"></div>
+    </div>
+
+</div>
+
+<!--dizi-kutuları-bitis-->
+    
+
+    
+    <div class="socialMedia">
+    <i class="fab fa-facebook-f socialPad"></i>
+    <i class="fab fa-instagram socialPad"></i>
+    <i class="fab fa-twitter socialPad"></i>
+    <i class="fab fa-youtube socialPad"></i>
+    </div>
+
+    
+    
+    <div class="footer">
+    <table>
+        <tr style="height:40px">
+            <td class="xd">Sesli Betimleme</td>
+            <td class="xd">Yardım Merkezi</td>
+            <td class="xd">Hediye kartları</td>
+            <td class="xd">Medya Merkezi</td>
+        </tr>
+
+        <tr style="height:40px">
+            <td class="xd">Yatırımcı İlişkileri</td>
+            <td class="xd">İş imkanlar</td>
+            <td class="xd">Kullanım Koşulları</td>
+            <td class="xd">Gizlilik</td>
+        </tr>
+
+        <tr style="height:40px">
+            <td class="xd">Yasal Hükümler</td>
+            <td class="xd">Çerez Tercihleri</td>
+            <td class="xd">Kurumsal Bilgiler</td>
+            <td class="xd">Bize Ulaşın</td>
+        </tr>
+    </table>
+
+    <div class="play4">
+        <button class="profileSC4" type="button">Hizmet Kodu</button>
+    </div>
+
+    </div>
+
+    <div class="sonYazi">@ 1997-2022 Netflix, Inc {d6d2ds6da-1ece-4e15-asdwd-0aDQWfsdgs456899}</div>
+
+</body>
+</html>
